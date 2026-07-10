@@ -73,14 +73,14 @@ nav{
     text-align:center;
     font-size:40px;
     font-weight:500;
-    margin:45px auto;
+    margin:65px auto;
 }
 
 .speaker{
     display:grid;
     grid-template-columns:repeat(2,1fr);
     gap:24px;
-    margin: 20px;
+    margin: 30px;
 }
 
 .speakers-card{
@@ -90,4 +90,14 @@ nav{
     overflow:hidden;
     display:flex;
     flex-direction:column;
+}
+.speakers-card img{
+    width: 100%;
+    display: block;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    padding: 10px;
 }
