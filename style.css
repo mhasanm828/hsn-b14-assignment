@@ -29,6 +29,15 @@ nav{
     font-weight: bold; 
     border: none;
 }
+.outline-btn{
+    background-color: #FFFFFF;
+    color: #2563EB;
+    border: 2px solid #2563EB;
+    font-weight: bold;
+    padding: 10px 30px ;  
+    border-radius: 05px; 
+    font-weight: bold; 
+}
 
 
 .hero{
@@ -101,3 +110,56 @@ nav{
     gap: 5%;
     padding: 10px;
 }
+.pricing{
+    max-width:1200px;
+    margin:auto;
+    padding:80px 20px;
+
+}
+.pricing-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+.pricing-title h1{
+    font-size:48px;
+    color:#0f172a;
+}
+.pricing-title p{
+    color:#666;
+    margin-top:10px;
+}
+.pricing-3card{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:28px;
+}
+.pricing-card{
+    background:#fff;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    padding:24px;
+    display:flex;
+    gap: 05px;
+    color: 333333;
+    flex-direction:column;
+}
+.pricing-card h5{
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+
+}
+.pricing-card ul {
+    font-size: 13px;
+    padding: 10px;
+    display: flex;
+    gap: 05px;
+    flex-direction:column;
+
+}
+ .blue-card{
+    background-color: #0D1B2A;
+    color: white; !important
+
+ }
