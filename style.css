@@ -399,7 +399,7 @@ nav{
  footer{
     background-color: #0D1B2A;
     color: white;
-    padding: 20px 0;
+    padding: 08px 0;
     text-align: center;
 
  }
@@ -415,6 +415,6 @@ nav{
     color: #1D4ED8;
  }
 
- .copywrite{
-    padding: 20px 0;
+.copywrite{
+    padding: 10px 0;
  }
