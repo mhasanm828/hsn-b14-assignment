@@ -8,7 +8,7 @@ nav{
     display: flex;
     justify-content: space-around;
     padding: 20px 5%;
-    background-color: #dbc3c3;
+    background-color: #ffffff;
     align-items: center;
     font-family: "Inter", sans-serif;
 }
@@ -33,6 +33,12 @@ nav{
     border: none;
     cursor: pointer;
 }
+.common-btn:hover{
+    transition: .02s;
+    box-shadow: 0 6px 20px blueviolet;
+    background: linear-gradient(135deg, #3B82F6 0%, #2563EB 100%);
+
+}
 .outline-btn{
     background-color: #FFFFFF;
     color: #2563EB;
@@ -42,6 +48,13 @@ nav{
     padding: 10px 30px ;  
     border-radius: 05px; 
     font-weight: bold; 
+}
+.outline-btn:hover{
+    transition: .02s;
+    box-shadow: 0 6px 20px blueviolet;
+    color: #ffffff;
+    background-color: #004df3;
+
 }
 
 /* hero section */
@@ -79,23 +92,25 @@ nav{
 
 .hero-contant button{
     width: 20%;
-    margin-top: 30vh;
+    margin-top: 25vh;
     margin-left: 40%;
 }
 .Meet-Speakers h1{
     font-family: "Inter", sans-serif;
     text-align:center;
-    font-size:40px;
-    font-weight:500;
+    font-size:48px;
+    font-weight:800;
     margin:65px auto;
 }
 
 .speaker{
     display:grid;
     font-family: "Inter", sans-serif;
+    align-items: center;
     grid-template-columns:repeat(2,1fr);
     gap:24px;
-    margin: 30px;
+    margin: 50px;
+    padding: 20px;
 }
 
 .speakers-card{
@@ -164,6 +179,11 @@ nav{
     gap: 05px;
     color: 333333;
     flex-direction:column;
+}
+.pricing-card:hover{
+    transition: 0.2s;    
+    border-color: #2563EB;
+    box-shadow: 0 22px 34px -10px rgba(13, 85, 240, 0.3);
 }
 .pricing-card h5{
     text-transform: uppercase;
