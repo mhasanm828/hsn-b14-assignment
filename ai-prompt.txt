@@ -1,0 +1,13 @@
+Create a modern HTML and CSS section for a developer conference website called "DevConf 2026".
+
+Design a responsive "48-Hour Innovation Hackathon" section using only HTML and CSS.
+
+The section should include:
+- A centered heading and subtitle.
+- Three feature cards in a responsive grid.
+- Cards for Prize Pool, Team Size, and Challenge Themes.
+- A bottom information area showing the event date and location.
+- A centered "Join the Hackathon" button.
+- Use Flexbox and CSS Grid.
+- Match a dark, modern developer conference theme with hover effects and rounded cards.
+- Do not use JavaScript or Bootstrap.

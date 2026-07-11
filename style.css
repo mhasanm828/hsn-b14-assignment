@@ -2,6 +2,8 @@
     padding: 8;
     margin: 0;
 }
+
+/* navigation section */
 nav{
     display: flex;
     justify-content: space-around;
@@ -9,7 +11,6 @@ nav{
     background-color: #dbc3c3;
     align-items: center;
     font-family: "Inter", sans-serif;
-
 }
 
 .nav-a-list ul{
@@ -43,9 +44,9 @@ nav{
     font-weight: bold; 
 }
 
-
+/* hero section */
 .hero{
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./assets/banner.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./assets/banner.jpg');
     background-repeat: no-repeat;
     font-family: "Inter", sans-serif;
     background-size: cover;
@@ -129,11 +130,13 @@ nav{
     color:#575757;
 }
 
+
+/* pricing */
 .pricing{
     max-width:1200px;
     margin:auto;
     padding:80px 20px;
-
+    font-family: "Inter", sans-serif;
 }
 .pricing-title{
     text-align:center;
@@ -154,7 +157,7 @@ nav{
 }
 .pricing-card{
     background:#fff;
-    border:1px solid #e5e7eb;
+    border:1px solid #7c8494;
     border-radius:12px;
     padding:24px;
     display:flex;
